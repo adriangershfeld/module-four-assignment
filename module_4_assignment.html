@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 4 HTML Assignment</title>
+</head>
+<body>
+
+    <nav>
+        <ul style="list-style: none; display: flex; gap: 15px; padding: 0; margin: 0;">
+          <li><a href="#home" style="text-decoration: none; color: blue;">Home</a></li>
+          <li><a href="#about" style="text-decoration: none; color: blue;">About</a></li>
+          <li><a href="#contact" style="text-decoration: none; color: blue;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+      
+        <label>How did you find us?</label><br>
+        <input type="radio" id="google" name="source" value="google">
+        <label for="google">Google</label><br>
+        <input type="radio" id="social" name="source" value="social">
+        <label for="social">Social Media</label><br>
+        <input type="radio" id="friend" name="source" value="friend">
+        <label for="friend">Friend</label><br><br>
+      
+        <button type="submit">Submit</button>
+      </form>
+      
+      <hr>
+      
+      <h2>Product Table</h2>
+      <table border="1" style="width: 50%; text-align: left; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Water Bottle</td>
+            <td>$12.49</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Insulated Thermos</td>
+            <td>$22.49</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Keychain</td>
+            <td>$7.99</td>
+            <td>300</td>
+          </tr>
+        </tbody>
+      </table>
+
+        <hr>
+
+        <h2>Gallery</h2>
+        <img src="https://placehold.co/300x200" alt="Placeholder Image" style="display: block; margin-bottom: 15px;">
+        <img src="https://placehold.co/300x200" alt="Image With Rounded Border" style="border-radius: 15px; display: block;">
+
+</body>
+</html>
